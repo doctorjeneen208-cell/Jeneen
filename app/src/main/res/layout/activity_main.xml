@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="24dp"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Robin"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#1F2937"
+        android:layout_marginTop="140dp"/>
+
+    <ImageView
+        android:layout_width="92dp"
+        android:layout_height="92dp"
+        android:layout_marginTop="18dp"
+        android:src="@drawable/robin"
+        />
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Full Name"
+            android:textColor="#111827"
+            android:textColorHint="#9CA3AF"
+            android:inputType="textPersonName"
+            android:layout_marginTop="30dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="Email"
+            android:textColor="#111827"
+            android:textColorHint="#9CA3AF"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="Password"
+            android:textColor="#111827"
+            android:textColorHint="#9CA3AF"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="Confirm Password"
+            android:textColor="#111827"
+            android:textColorHint="#9CA3AF"
+            android:inputType="textPassword" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginTop="22dp"
+        android:text="SIGN UP"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:backgroundTint="#50C79C" />
+
+
+</LinearLayout>
